@@ -1,7 +1,6 @@
 # small_typst_template
 A small chinese typst template including page header and footer.
-**just for fun
-**
+**just for fun**
 
 # Usage:
 create a `.typ` file in the root folder.
