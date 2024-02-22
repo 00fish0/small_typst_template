@@ -1,5 +1,6 @@
 # small_typst_template
 A small chinese typst template including page header and footer.
+
 **just for fun**
 
 # Usage:
