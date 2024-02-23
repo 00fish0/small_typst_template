@@ -11,7 +11,7 @@ Template application scenario: daily notes
 - Preset Chinese fonts
 
 
-# Usage:
+# Usage
 create a `.typ` file in the root folder.
 An example is shown in `test1.typ`.
 ```typst
