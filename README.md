@@ -10,14 +10,12 @@ Template application scenario: daily notes
 - A custom header
 - Preset Chinese fonts
 
-
 # Usage
-create a `.typ` file in the root folder.
-An example is shown in `test1.typ`.
+Create a `.typ` file in the root folder. An example is shown in `test1.typ`.
 ```typst
 #import "template\\template.typ": *
 #import "template\\boxes.typ": *
 
 #show: it => set_style(it)
 ```
-modify the `set_style`'s arguments to change font or size.
+Modify the `set_style`'s arguments to change font or size.
