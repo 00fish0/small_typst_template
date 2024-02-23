@@ -1,5 +1,13 @@
 # small_typst_template
-A small chinese typst template including page header and footer.
+A small Chinese typst template including page header and footer.
+
+Template application scenario: daily notes
+
+## Features
+- A markdown-like quote block
+- Coloured prompt boxes
+- A custom header
+- Preset Chinese fonts
 
 **just for fun**
 
