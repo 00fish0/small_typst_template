@@ -3,13 +3,13 @@ A small Chinese typst template including page header and footer.
 
 Template application scenario: daily notes
 
-## Features
+**just for fun**
+# Features
 - A markdown-like quote block
 - Coloured prompt boxes
 - A custom header
 - Preset Chinese fonts
 
-**just for fun**
 
 # Usage:
 create a `.typ` file in the root folder.
