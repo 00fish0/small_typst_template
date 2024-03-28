@@ -112,7 +112,7 @@
   rect(height: 100%)[Fixed height],
   image("images\\sheep1.png", height: 100%),
   image("images\\sheep1.png", height: 100%),
-).fields()
+)
 
 
 
@@ -129,4 +129,5 @@
 
 
 #ref_text[小介绍]
-#tips_text[小介ff小介][jrglgid]
+#idea[小介ff小介][jrglgid]
+#question[小介ff小介][jrglgid]

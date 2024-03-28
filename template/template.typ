@@ -34,7 +34,7 @@
   // set heading(numbering: "1.1")
   if it.level == 1 {
     align(center)[
-    #format_heading(font: 字体.黑体, size: 字号.二号, is_align:true, it)]
+    #format_heading(font: 字体.黑体, size: 字号.二号, it)]
   }
   if it.level == 2 {
     format_heading(font: 字体.黑体, size: 字号.三号, it)
@@ -82,7 +82,7 @@
   set par(first-line-indent: 2em)
 
   set heading(numbering: (..n) => {
-    if n.pos().len() < 4 {
+    if n.pos().len() < 3 {
       return numbering("1.1", ..n)
     }
   })//仅对前三级标题加编号
@@ -104,5 +104,5 @@
 }
 
 #let ref_text(width: 100%, input_text) = { // 类markdown的黑色引用块，写作时直接调用
-  rect(fill: luma(240), stroke: (left: 0.25em + luma(120)), width: width)[#input_text]
+  rect(fill: luma(240), stroke: (left: 0.25em), width: width)[#input_text]
 }
