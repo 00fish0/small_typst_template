@@ -18,4 +18,5 @@ Create a `.typ` file in the root folder. An example is shown in `test1.typ`.
 
 #show: it => set_style(it)
 ```
-Modify the `set_style`'s arguments to change font or size.
+Modify `set_style`'s arguments to change font or size.
+Use `idea`, `question` to create a coloured box
