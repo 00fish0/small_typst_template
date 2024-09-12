@@ -1,12 +1,6 @@
 #import "type.typ": *
 #import "boxes.typ": *
 
-#let set_font(set_font: 字体.宋体, set_size: 字号.小四, body) = {
-  set text(font: set_font, size: set_size)
-  // show emph: text.with(font: 字体.楷体, size: set_size)
-  body
-}
-
 #let get_header(author: "fatSheep", date:true, title: "未命名") = {
   return {
     set text(font: 字体.宋体, size: 字号.小五, baseline: 6pt)
@@ -69,9 +63,10 @@
   box(width: 1.8em) //标题后第一个段落缩进：在前面加1.8字长的box
 }
 
-#let set_style(font: 字体.宋体, size: 字号.小四, author: "fatSheep", body) = {
+#let set_style(font: 字体.宋体, size: 字号.小四, author: "11班-唐梓涵", body) = {
   set raw(block: true) // 代码块独立在行间
-  show: it => set_font(set_font:font, set_size:size)[#it] // set_font
+  // show: it => set_font(set_font:font, set_size:size)[#it] // set_font
+  set text(font: 字体.宋体, size: 字号.小四)
 
   set page(header: get_header(author: author), ) // 页眉
   set page(margin: auto)
